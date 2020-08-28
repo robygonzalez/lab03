@@ -10,7 +10,6 @@ header {
 
 body {
   display: flex;
-  background: rgba(0,255,0,.2);
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -59,9 +58,6 @@ nav {
  }
 
 @media screen and (min-width: 768px) {
-  body {
-    background: rgba(0,0,255,.2);
-  }
   header {
     display: flex;
     flex-direction: row;
@@ -74,9 +70,6 @@ nav {
 }
 
 @media screen and (min-width: 1035px) {
-  body {
-    background: rgba(255,0,0,.2);
-  }
   main{
     display:flex;
     flex-direction:row;
